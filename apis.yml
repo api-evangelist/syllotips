@@ -1,7 +1,29 @@
 aid: syllotips
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/syllotips.png
 name: SylloTips
-description: SylloTips is a company surfaced as a portfolio company of techstars and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  SylloTips is an enterprise AI platform, founded in Italy and backed by Techstars,
+  that adds a continuous-improvement and reliability layer on top of RAG chatbots and
+  planning agents. It captures a company's undocumented, expert knowledge through
+  human-in-the-loop validation, turns validated expert answers into governed, reusable
+  memory, and monitors AI agents for silent failures — confidently wrong answers,
+  outdated citations, and unadmitted knowledge gaps — routing issues to the right
+  experts. The platform is optimized for Microsoft 365, Azure, and enterprise identity,
+  ships native connectors to existing tools and data systems, and integrates with 200+
+  apps via Zapier, AWS, and Pabbly Connect. SylloTips publishes no public developer API,
+  OpenAPI specification, or developer portal; integration is delivered through those
+  connectors and its Microsoft 365 / Teams application rather than a self-serve API.
 url: https://raw.githubusercontent.com/api-evangelist/syllotips/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +33,18 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Artificial Intelligence
+- Knowledge Management
+- Enterprise AI
+- AI Agents
+- RAG
+- Human-in-the-Loop
+- Microsoft 365
+- IT Support
+- Customer Experience
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +54,16 @@ maintainers:
 common:
 - type: Website
   url: https://syllotips.com/
+- type: Blog
+  url: https://syllotips.com/blog
+- type: SignUp
+  url: https://syllotips.com/get-demo
+- type: TermsOfService
+  url: https://syllotips.com/eula
+- type: PrivacyPolicy
+  url: https://www.iubenda.com/privacy-policy/36175819
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
