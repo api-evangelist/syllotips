@@ -48,12 +48,12 @@ modified: '2026-07-21'
 tags:
 - Company
 - Artificial Intelligence
-- Knowledge-Management
+- Knowledge Management
 - Enterprise AI
 - AI Agents
 - RAG
 - Human-in-the-Loop
-- Microsoft-365
+- Microsoft 365
 - IT Support
 - Customer Experience
 tags_raw:
@@ -67,6 +67,8 @@ tags_raw:
 - Microsoft 365
 - IT Support
 - Customer Experience
+- Knowledge-Management
+- Microsoft-365
 apis: []
 maintainers:
 - FN: Kin Lane
